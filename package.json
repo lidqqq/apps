@@ -11,7 +11,9 @@
     "fc": "HUSKY_SKIP_HOOKS=1 git commit",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -c -w",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prestart": "npm run build",
+    "start": "node dist/index.js"
   },
   "keywords": [
     "todo"
