@@ -1,2 +1,2 @@
-import te from '@src/test.ts';
-export default () => te;
+import end from "@src/end.ts";
+export default string => end(string);

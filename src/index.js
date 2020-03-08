@@ -1,3 +1,3 @@
-import hoge from '@src/hoge.ts';
+import hoge from "@src/hoge.ts";
 
-console.log(hoge(['a']));
+console.log(hoge(["🎉🎉🎉"]));
