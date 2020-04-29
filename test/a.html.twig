@@ -1,6 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	Content of the page...
+{% endblock %}
+
 {% for user in users %}
 	*
 	{{ user.name }}
 {% else %}
 	No users have been found.
 {% endfor %}
+
+{% macro input(name, value, type, size) %}
+	<input type="{{ type }}" name="{{ name }}" value="{{ value|e }}" size="{{ size }}"/>
+{% endmacro %}
+
+{% macro textarea(name, value, rows, cols) %}
+	<textarea name="{{ name }}" rows="{{ rows }}" cols="{{ cols }}">{{ value|e }}</textarea>
+{% endmacro %}
