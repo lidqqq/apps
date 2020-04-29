@@ -1,5 +1,3 @@
-# mixing TS/JS
-
 ## Usage
 
 ```
