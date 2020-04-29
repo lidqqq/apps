@@ -19,7 +19,7 @@
   "author": "todo",
   "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-alias": "3.0.1",
+    "@rollup/plugin-alias": "3.1.0",
     "@rollup/plugin-node-resolve": "7.1.1",
     "@rollup/plugin-typescript": "3.1.0",
     "eslint": "6.8.0",
